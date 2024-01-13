@@ -1,0 +1,17 @@
+$colors: (
+  secondary: $color-blue,
+  tertiary: $color-green,
+  quaternary: $color-yellow,
+);
+
+@each $name, $color in $colors {
+  .mui-accordion-#{$name} {
+    .MuiButtonBase-root {
+      background-color: lighten($color, 20%);
+      color: $color-white;
+    }
+    .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+      color: $color-white;
+    }
+  }
+}

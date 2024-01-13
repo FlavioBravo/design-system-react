@@ -1,0 +1,30 @@
+$colors: (
+  secondary: $color-blue,
+  tertiary: $color-black,
+  quaternary: $color-pink,
+);
+
+@each $name, $color in $colors {
+  .mui-input-text-#{$name} {
+    .MuiOutlinedInput-root {
+      &:hover fieldset {
+        border-color: $color;
+      }
+    }
+  
+    .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+      border-color: $color;
+      &:hover fieldset {
+        border-color: $color;
+      }
+    }
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+      .MuiOutlinedInput-notchedOutline {
+      border-color: $color;
+    }
+  
+    .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+      color: $color;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+// Font and Text
+$font-size-xs:12px; 
+$line-height-xs: 16px;
+$font-size-sm: 14px;
+$line-height-sm: 20px;
+$font-size-base: 16px;
+$line-height-base: 24px;
+$font-size-lg: 18px;
+$line-height-lg: 28px;
+
+
+// Spacing
+$space-default: 24px;
+$space-x-sm: calc($space-default * 0.25);
+$space-sm: calc($space-default * 0.5);
+$space-md: $space-default;
+$space-lg: calc($space-default * 1.5);
+$space-x-lg: calc($space-default * 2);
+
+
+// Colors
+$color-black: #000000;
+$color-white: #ffffff;
+$color-blue: #1fb6ff;
+$color-purple: #7e5bef;
+$color-pink: #ff49db;
+$color-orange: #ff7849;
+$color-green: #13ce66;
+$color-yellow: #ffc82c;
+$color-gray: #8492a6;
+$color-gray-light: #d3dce6;
